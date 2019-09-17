@@ -4,7 +4,7 @@ function shearIm = shearimage(Im, T)
 shearIm = zeros(rows, cols);
 for xg = 1:cols	
   for yg = 1:rows
-    xyff = inv(T)*[xg;yg];
+    xyff = inv(T)*([xg; yg]-[cols/2; rows/2])+[cols/2; rows/2];
     xff  = xyff(1);
     yff  = xyff(2);
     if (xff<=cols & yff<=rows & xff>=1 & yff>=1)
