@@ -22,13 +22,13 @@ axis tight; title('light histogram');
 subplot(2,2,3), imagesc(nuf5T);
 axis image; title('Dark image'); colorbar
 
-% figure(2)
-% colormap(gray(256))
-% subplot(2,2,1), imagesc(nuf5T_d4);
-% axis image; title('nuf5Td4'); colorbar
-% subplot(2,2,2), imagesc(nuf5T_d8);
-% axis image; title('nuf5Td8'); colorbar
-% subplot(2,2,3), imagesc(nuf5T_de4);
-% axis image; title('nuf5Tde4'); colorbar
-% subplot(2,2,4), imagesc(nuf5T_de8);
-% axis image; title('nuf5Tde8'); colorbar
+figure(2)
+colormap(gray(256))
+subplot(2,2,1), imagesc(nuf5T_d4);
+axis image; title('nuf5Td4'); colorbar
+subplot(2,2,2), imagesc(nuf5T_d8);
+axis image; title('nuf5Td8'); colorbar
+subplot(2,2,3), imagesc(nuf5T_de4);
+axis image; title('nuf5Tde4'); colorbar
+subplot(2,2,4), imagesc(nuf5T_de8);
+axis image; title('nuf5Tde8'); colorbar
