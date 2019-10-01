@@ -22,4 +22,4 @@ axis image; colorbar
 title('mid-way thresholded image'); 
 subplot(2,2,4), imagesc(imTmid2, [0 1]);
 axis image; colorbar
-title('least-error thresholded image'); 
+title('least-error thresholded image');

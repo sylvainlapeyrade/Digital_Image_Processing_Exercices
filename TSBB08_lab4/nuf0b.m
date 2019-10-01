@@ -3,11 +3,10 @@ histo = hist(im(:),[0:255]);
 T = mean(mean(im))
 
 Tmid = mid_way(histo, T)
-%Tmid = 52
 imTmid = im<=Tmid;
 
-Tmid2 = least_error(histo, T)
-imTmid2 = im<=Tmid2;
+% Tmid2 = least_error(histo, T)
+% imTmid2 = im<=Tmid2;
 
 figure(1)
 colormap(gray(256))
@@ -20,6 +19,6 @@ title('histogram');
 subplot(2,2,3), imagesc(imTmid, [0 1]);
 axis image; colorbar
 title('mid-way thresholded image'); 
-subplot(2,2,4), imagesc(imTmid2, [0 1]);
-axis image; colorbar
-title('least-error thresholded image'); 
+% subplot(2,2,4), imagesc(imTmid2, [0 1]);
+% axis image; colorbar
+% title('least-error thresholded image'); 

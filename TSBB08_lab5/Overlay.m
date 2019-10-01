@@ -36,4 +36,3 @@ im2(:,:,2) = (immask==1) .*   0 + (immask==0) .* im1g;
 im2(:,:,3) = (immask==1) .* 255 + (immask==0) .* im1b;
 
 figure(51), imshow(im2/255);
-

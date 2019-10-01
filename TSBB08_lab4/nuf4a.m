@@ -3,7 +3,6 @@ histo = hist(im(:),[0:255]);
 T = mean(mean(im))
 
 Tmid = mid_way(histo, T)
-%Tmid = 52
 imTmid = im<=Tmid;
 
 Tmid2 = least_error(histo, T)

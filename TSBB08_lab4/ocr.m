@@ -1,6 +1,6 @@
 % Read the image and cast it to double
 % ====================================
-nuf = double(imread('nuf2c.tif'));
+nuf = double(imread('nuf8a.tif'));
 
 % Extend the image
 % ================
