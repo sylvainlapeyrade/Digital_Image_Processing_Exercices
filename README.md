@@ -1,10 +1,10 @@
-# TSBB08-Digital_Image_Processing_Labs
-Labs implementation for the Digital Image processing course TSBB08 in Linköping University.
+# Digital_Image_Processing_Exercices
+Digital Image processing exercices including:
 
-* **Lab1** - Operations on gray scale images. Linear filters in the spatial and Fourier domain
-* **Lab2** - Resampling - Image rotation.
-* **Lab3** - Histogram and gray scale transformation. Operations on binary images. Distance maps.
-* **Lab4** - Automatic threshholding and simple OCR (Optical Character Recognition).
-* **Lab5** - Segmentation of cells in microscopy images.
-* **Lab6** - Automatic counting of blood cells. Experiments with the structure tensor.
-* **Lab7** - Image restoration. Edge detection with Hough transform and Canny.
+* **1** - Operations on gray scale images, linear filters in the spatial and Fourier domain.
+* **2** - Resampling - Image rotation.
+* **3** - Histogram and gray scale transformation. Operations on binary images. Distance maps.
+* **4** - Automatic threshholding and simple OCR (Optical Character Recognition).
+* **5** - Segmentation of cells in microscopy images.
+* **6** - Automatic counting of blood cells. Experiments with the structure tensor.
+* **7** - Image restoration. Edge detection with Hough transform and Canny.
